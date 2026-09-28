@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: lightblue;
+}
+header nav  a{
+    text-decoration: none;
+    color:rgb(178, 40, 130);
+    font-size:20px;
+    margin-right: 100px;
+    font-weight: bold;
+}
+header nav a:hover{
+    color:white;
+    background-color: rgb(19, 120, 203);
+    padding: 3px;
+}
+header div img{
+    width:100px;
+    border-radius: 50%;
+    padding:2px;
+}
+.contact{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgb(20, 114, 145);
+    border: 5px solid lightblue;
+    width:500px;
+    margin-left: 480px;
+    
+}
+.contact p{
+    font-size: 20px;
+}
+.contact button{
+    margin-bottom: 5px;
+    padding:5px;
+    border-radius: 10px;
+    width:100px;
+    background-color:rgb(178, 40, 130);
+    color:white;
+    font-weight: bold;
+}
